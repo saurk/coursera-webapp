@@ -10,7 +10,7 @@ h1 {
 section {
   border: 1px solid black;
   background-color: #A52A2A;
-  width: 90%;
+  width: 99%;
   height: 150px;
   margin-right: auto;
   margin-left: auto;
@@ -20,14 +20,21 @@ section {
 }
 
 section  h2 {
-  position: absolute;
+  border: 1px solid black;
+  background-color: #A52AFF;
+/*  position: absolute;
   top: 0;
-  right: 0;
+  right: 0;*/
+  float: right;
   }
 
 section  p {
-  position: absolute;
-  top: 60px;
+  /*position: absolute;
+  bottom: 0;
+  right: 0;*/
+  background-color: #FF2A00;
+  clear: right;
+
   }
 
 /* Simple Responsive Framework. */
