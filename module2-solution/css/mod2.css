@@ -15,8 +15,20 @@ section {
   margin-right: auto;
   margin-left: auto;
   font-family: Helvetica;
+  position: relative;
   color: white;
 }
+
+section  h2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  }
+
+section  p {
+  position: absolute;
+  top: 60px;
+  }
 
 /* Simple Responsive Framework. */
 .row {
